@@ -11,7 +11,6 @@ func parseOpenAPI(from filePath: String) throws -> OpenAPI.Document {
     let document = try JSONDecoder().decode(OpenAPI.Document.self, from: data)
     return document
 }
-
 //function to create SymbolGraph from OpenAPI document
 func createSymbolGraph(from document: OpenAPI.Document) -> SymbolGraph {
     var symbols: [SymbolGraph.Symbol] = []
@@ -81,7 +80,6 @@ func createSymbolGraph(from document: OpenAPI.Document) -> SymbolGraph {
                 ))
         }
     }
-
     //map operations
     for (path, _) in document.paths {
         //for simplicity, we'll just create a function for each path
