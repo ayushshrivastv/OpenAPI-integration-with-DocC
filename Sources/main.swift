@@ -1,5 +1,6 @@
 // The Swift Programming Language
 // https://docs.swift.org/swift-book
+//Mit licence Copyright (c) 2024 Ayush Srivastava
 import Foundation
 import OpenAPIKit
 import SymbolKit
