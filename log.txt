@@ -1,0 +1,46 @@
+8e897d4 Merge pull request #23 from ayushshrivastv/ayushshrivastv-patch-16
+4f9471a Update main.swift
+7cd6e38 Merge pull request #22 from ayushshrivastv/ayushshrivastv-patch-15-2
+5234f91 Update main.swift
+92a28a3 Merge pull request #21 from ayushshrivastv/ayushshrivastv-patch-15-1
+dfab3f8 Update Package.swift
+e9be3a0 Merge pull request #20 from ayushshrivastv/openapi
+ee9e253 Merge pull request #19 from ayushshrivastv/ayushshrivastv-patch-15
+7465900 Update main.swift
+bb4b3de minor spacing
+cf91083 Merge pull request #18 from ayushshrivastv/openapi
+5de772d change
+ab1c9c5 change
+29700b4 Merge pull request #17 from ayushshrivastv/ayushshrivastv-patch-14
+b146fe4 Update main.swift
+5d72f47 Merge pull request #16 from ayushshrivastv/ayushshrivastv-patch-13
+d8cf761 Update main.swift
+79ba2d4 Merge pull request #15 from ayushshrivastv/ayushshrivastv-patch-12
+8153d55 Update Package.swift
+a8e20b9 Merge pull request #14 from ayushshrivastv/ayushshrivastv-patch-11
+1881d48 Update main.swift
+e5c785e Merge pull request #13 from ayushshrivastv/ayushshrivastv-patch-10
+c4be1ee Update main.swift
+af4e785 Merge pull request #12 from ayushshrivastv/ayushshrivastv-patch-9
+bf7e64c Update README.md
+bf0f2c9 Merge pull request #11 from ayushshrivastv/ayushshrivastv-patch-8
+aa74d91 Update README.md
+922e679 Merge pull request #10 from ayushshrivastv/ayushshrivastv-patch-7
+e81eb15 Update README.md
+7f71ebe Merge pull request #9 from ayushshrivastv/ayushshrivastv-patch-6
+c103d3f Update README.md
+704465c Merge pull request #8 from ayushshrivastv/ayushshrivastv-patch-5
+8fc9454 Update README.md
+a73e43a Merge pull request #7 from ayushshrivastv/ayushshrivastv-patch-4
+327aa7c Update README.md
+a77a196 Rename MyAPI to API throughout the codebase
+83e7b66 Merge pull request #4 from ayushshrivastv/ayushshrivastv-patch-3
+a39f03a README.md
+1b728b9 Merge pull request #3 from ayushshrivastv/ayushshrivastv-patch-2
+07e0bc8 main.swift
+d47e0ff Update main.swift
+1e8b41e Merge pull request #2 from ayushshrivastv/ayushshrivastv-patch-1
+4ae25ba Update main.swift
+9aae012 Merge pull request #1 from ayushshrivastv/OpenAPI-integration-with-DocC
+d52c651 Initial commit: Setup OpenAPI to DocC integration project
+63b172d Initial commit
