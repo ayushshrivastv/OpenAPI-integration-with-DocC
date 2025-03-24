@@ -6,7 +6,7 @@ import Foundation
 import OpenAPIKit
 import SymbolKit
 
-//function to parse OpenAPI file
+ //function to parse OpenAPI file
 func parseOpenAPI(from filePath: String) throws -> OpenAPI.Document {
     let data = try Data(contentsOf: URL(fileURLWithPath: filePath))
     let document = try JSONDecoder().decode(OpenAPI.Document.self, from: data)
