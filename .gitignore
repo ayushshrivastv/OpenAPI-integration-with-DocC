@@ -8,3 +8,4 @@ DerivedData/
 .vscode/
 symbolgraph.json
 .netrc
+log.txt

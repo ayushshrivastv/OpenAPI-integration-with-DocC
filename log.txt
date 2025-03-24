@@ -9,8 +9,6 @@ ee9e253 Merge pull request #19 from ayushshrivastv/ayushshrivastv-patch-15
 7465900 Update main.swift
 bb4b3de minor spacing
 cf91083 Merge pull request #18 from ayushshrivastv/openapi
-5de772d change
-ab1c9c5 change
 29700b4 Merge pull request #17 from ayushshrivastv/ayushshrivastv-patch-14
 b146fe4 Update main.swift
 5d72f47 Merge pull request #16 from ayushshrivastv/ayushshrivastv-patch-13
