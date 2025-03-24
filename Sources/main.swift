@@ -12,12 +12,12 @@ func parseOpenAPI(from filePath: String) throws -> OpenAPI.Document {
     let document = try JSONDecoder().decode(OpenAPI.Document.self, from: data)
     return document
 }
-//function to create SymbolGraph from OpenAPI document
+ //function to create SymbolGraph from OpenAPI document
 func createSymbolGraph(from document: OpenAPI.Document) -> SymbolGraph {
     var symbols: [SymbolGraph.Symbol] = []
     var relationships: [SymbolGraph.Relationship] = []
 
-    //maping schemas
+     //maping schemas
     for (schemaName, _) in document.components.schemas {
         let structIdentifier = "s:\(schemaName.rawValue)"
 
