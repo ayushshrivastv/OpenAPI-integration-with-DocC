@@ -1,0 +1,211 @@
+{
+  "metadata" : {
+    "formatVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "generator" : "OpenAPItoSymbolGraph"
+  },
+  "module" : {
+    "isVirtual" : false,
+    "name" : "API",
+    "platform" : {
+      "operatingSystem" : {
+        "name" : "macosx"
+      }
+    }
+  },
+  "relationships" : [
+    {
+      "kind" : "memberOf",
+      "source" : "s:API",
+      "target" : "s:API.User",
+      "targetFallback" : null
+    },
+    {
+      "kind" : "memberOf",
+      "source" : "s:API.User",
+      "target" : "s:API.User.id",
+      "targetFallback" : null
+    },
+    {
+      "kind" : "memberOf",
+      "source" : "s:API.User",
+      "target" : "s:API.User.name",
+      "targetFallback" : null
+    },
+    {
+      "kind" : "memberOf",
+      "source" : "s:API.User",
+      "target" : "s:API.User.email",
+      "targetFallback" : null
+    },
+    {
+      "kind" : "memberOf",
+      "source" : "s:API",
+      "target" : "f:API.getUsers",
+      "targetFallback" : null
+    }
+  ],
+  "symbols" : [
+    {
+      "accessLevel" : "public",
+      "docComment" : {
+        "lines" : [
+          {
+            "text" : "A user of the system with id, name, and email properties."
+          }
+        ]
+      },
+      "identifier" : {
+        "interfaceLanguage" : "swift",
+        "precise" : "s:API.User"
+      },
+      "kind" : {
+        "displayName" : "Structure",
+        "identifier" : "struct"
+      },
+      "names" : {
+        "prose" : "A user of the system",
+        "title" : "User"
+      },
+      "pathComponents" : [
+        "API",
+        "User"
+      ]
+    },
+    {
+      "accessLevel" : "public",
+      "docComment" : {
+        "lines" : [
+          {
+            "text" : "The user's unique identifier"
+          }
+        ]
+      },
+      "identifier" : {
+        "interfaceLanguage" : "swift",
+        "precise" : "s:API.User.id"
+      },
+      "kind" : {
+        "displayName" : "Property",
+        "identifier" : "property"
+      },
+      "names" : {
+        "prose" : "The user's unique identifier",
+        "title" : "id"
+      },
+      "pathComponents" : [
+        "API",
+        "User",
+        "id"
+      ]
+    },
+    {
+      "accessLevel" : "public",
+      "docComment" : {
+        "lines" : [
+          {
+            "text" : "API Documentation"
+          }
+        ]
+      },
+      "identifier" : {
+        "interfaceLanguage" : "swift",
+        "precise" : "s:API"
+      },
+      "kind" : {
+        "displayName" : "Module",
+        "identifier" : "module"
+      },
+      "names" : {
+        "prose" : "API Documentation",
+        "title" : "API"
+      },
+      "pathComponents" : [
+        "API"
+      ]
+    },
+    {
+      "accessLevel" : "public",
+      "docComment" : {
+        "lines" : [
+          {
+            "text" : "The user's name"
+          }
+        ]
+      },
+      "identifier" : {
+        "interfaceLanguage" : "swift",
+        "precise" : "s:API.User.name"
+      },
+      "kind" : {
+        "displayName" : "Property",
+        "identifier" : "property"
+      },
+      "names" : {
+        "prose" : "The user's name",
+        "title" : "name"
+      },
+      "pathComponents" : [
+        "API",
+        "User",
+        "name"
+      ]
+    },
+    {
+      "accessLevel" : "public",
+      "docComment" : {
+        "lines" : [
+          {
+            "text" : "The user's email address"
+          }
+        ]
+      },
+      "identifier" : {
+        "interfaceLanguage" : "swift",
+        "precise" : "s:API.User.email"
+      },
+      "kind" : {
+        "displayName" : "Property",
+        "identifier" : "property"
+      },
+      "names" : {
+        "prose" : "The user's email address",
+        "title" : "email"
+      },
+      "pathComponents" : [
+        "API",
+        "User",
+        "email"
+      ]
+    },
+    {
+      "accessLevel" : "public",
+      "docComment" : {
+        "lines" : [
+          {
+            "text" : "Get all users\n\nPath: \/users\nMethod: GET"
+          }
+        ]
+      },
+      "identifier" : {
+        "interfaceLanguage" : "swift",
+        "precise" : "f:API.getUsers"
+      },
+      "kind" : {
+        "displayName" : "Function",
+        "identifier" : "func"
+      },
+      "names" : {
+        "prose" : "Get all users",
+        "title" : "getUsers"
+      },
+      "pathComponents" : [
+        "API",
+        "getUsers"
+      ]
+    }
+  ]
+}

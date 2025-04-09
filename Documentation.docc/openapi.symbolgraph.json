@@ -1,0 +1,80 @@
+{
+  "metadata" : {
+    "formatVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "generator" : "OpenAPItoSymbolGraph"
+  },
+  "module" : {
+    "isVirtual" : false,
+    "name" : "API",
+    "platform" : {
+      "operatingSystem" : {
+        "name" : "macosx"
+      }
+    }
+  },
+  "relationships" : [
+    {
+      "kind" : "memberOf",
+      "source" : "s:API",
+      "target" : "s:API.hello",
+      "targetFallback" : null
+    }
+  ],
+  "symbols" : [
+    {
+      "accessLevel" : "public",
+      "docComment" : {
+        "lines" : [
+          {
+            "text" : "Simple endpoint that says hello"
+          }
+        ]
+      },
+      "identifier" : {
+        "interfaceLanguage" : "swift",
+        "precise" : "s:API.hello"
+      },
+      "kind" : {
+        "displayName" : "Function",
+        "identifier" : "func"
+      },
+      "names" : {
+        "prose" : "Says hello",
+        "title" : "hello"
+      },
+      "pathComponents" : [
+        "API",
+        "hello"
+      ]
+    },
+    {
+      "accessLevel" : "public",
+      "docComment" : {
+        "lines" : [
+          {
+            "text" : "API Documentation"
+          }
+        ]
+      },
+      "identifier" : {
+        "interfaceLanguage" : "swift",
+        "precise" : "s:API"
+      },
+      "kind" : {
+        "displayName" : "Module",
+        "identifier" : "module"
+      },
+      "names" : {
+        "prose" : "API Documentation",
+        "title" : "API"
+      },
+      "pathComponents" : [
+        "API"
+      ]
+    }
+  ]
+}

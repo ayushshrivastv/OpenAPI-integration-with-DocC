@@ -1,1 +1,1 @@
-{"includedArchiveIdentifiers":["com.example.API"],"interfaceLanguages":{},"schemaVersion":{"major":0,"minor":1,"patch":2}}
+{"includedArchiveIdentifiers":["com.example.openapi-to-symbolgraph"],"interfaceLanguages":{"swift":[{"path":"\/documentation\/api","title":"API Documentation","type":"module"}]},"schemaVersion":{"major":0,"minor":1,"patch":2}}
